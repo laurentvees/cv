@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Project-specific
+output/
+
+# Packaging
+*.egg-info/
+build/
+dist/
+
+# Environments
+.env*
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Editors
+.vscode/
+.idea/
+.DS_Store
+
+# Dev sandbox
+dev/
+
