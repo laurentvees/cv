@@ -1,0 +1,12 @@
+name: cv-forge
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - jupyterlab
+  - pip
+  - pip:
+    - -r requirements.txt
+    - -e .
+
+
