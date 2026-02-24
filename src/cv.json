@@ -1,0 +1,276 @@
+{
+  "footer": "Laurent Van Eesbeeck",
+  "name": "LAURENT VAN EESBEECK",
+  "title": "Data Engineer — Python, Spark, Databricks — Azure & AWS",
+  "basics": {
+    "left": {
+      "Contact": "email@domain.com",
+      "Location": "Belgium",
+      "Date of Birth": "01/01/2000",
+      "Availability": "2025"
+    },
+    "redacted_note": "Personal details redacted.<br/>For the full version, please reach out on [LinkedIn](https://www.linkedin.com/in/laurentvaneesbeeck).",
+    "right": {
+      "Education": "Mathematical Engineering (UCL, 2014)<br/>Dual Master in Mathematics (KTH, 2014)",
+      "Certifications": "Associate Developer for Apache Spark",
+      "Languages": {
+        "French": "Native",
+        "Dutch": "Fluent",
+        "English": "Fluent",
+        "Portuguese": "Good"
+      }
+    }
+  },
+  "summary": [
+    "Data Engineer with 6+ years of experience building data pipelines across trading, energy, life sciences, and online retail. I can work across the full data chain — from bronze ingestion to gold business reports — and rely on experiences gained in both corporate and SMB environments. I focus on reliability, maintainability, and clean code practices.",
+    "Passionate about data engineering, I like to keep up with evolving tools and practices, while remaining pragmatic about technology choices.",
+    "Beyond technical execution, I value clear communication and knowledge sharing. I work well in collaborative teams where engineering discipline and technical rigor matter."
+  ],
+  "expertise": {
+    "Programming": [
+      "Python, SQL, PySpark"
+    ],
+    "Data Engineering": [
+      "Delta Lake, ETL/ELT pipelines, data modelling",
+      "Orchestration (Airflow), testing (pytest)",
+      "SQL Databases (Postgres, Azure SQL, Oracle)"
+    ],
+    "Cloud & Platforms": [
+      "Databricks",
+      "Azure (Storage, Key Vault, App Registrations)",
+      "AWS (S3, Secrets Manager)"
+    ],
+    "BI & Analytics": [
+      "Power BI, Spotfire"
+    ],
+    "CI/CD & DevOps": [
+      "Azure DevOps, Git, Docker, Terraform"
+    ],
+    "Familiar With": [
+      "Azure Synapse, MS Fabric, dbt"
+    ]
+  },
+  "strengths": [
+    "Strong analytical and systems-thinking mindset; able to map complex business processes rapidly.",
+    "Fast learner with broad technical range; comfortable working across architecture, engineering and BI.",
+    "Well-rounded engineer; able to design and build end-to-end data platforms with high degree of autonomy.",
+    "Structured communicator with a focus on clarity, from functional specification to technical documentation.",
+    "Bias toward clean code: SOLID principles, unit tests, Git flow, version release, CI/CD best practices."
+  ],
+  "achievements": [
+    "Designed and built a greenfield data platform (cloud architecture, data model, codebase design).",
+    "Developed a PySpark testing framework (pytest, Docker) used locally and in CI/CD pipelines.",
+    "Initiated a weekly Dev's Corner, resulting in better knowledge sharing, code standards, and code reviews.",
+    "Built data pipelines across diverse technologies, including logging and business notifications (MS Teams, e-mails).",
+    "Built BI dashboards for finance, sales, forecasting, data quality; improving business decision-making."
+  ],
+  "experiences": [
+    {
+      "company": "Pearl Acoustics",
+      "role": "Data Engineer",
+      "dates": "09/2025 – 12/2025",
+      "meta": {
+        "Industry": "Manufacturing / E-commerce",
+        "Tech": [
+          "Azure",
+          "Python",
+          "Terraform",
+          "Power BI"
+        ],
+        "Languages": "EN"
+      },
+      "context": [
+        "Three-month fixed-term assignment for an SMB, acting as a one-person data & cloud team.",
+        "The mission focused on automating commission invoices and delivering sales/cashflow dashboards."
+      ],
+      "tasks": [
+        "Designed an end-to-end cloud architecture (storage, ingestion, data model, reporting).",
+        "Built SOLID, tested Python pipelines consolidating webshop and bookkeeping data.",
+        "Generated end-of-month commission invoices (PDF) with automated e-mail workflow.",
+        "Developed sales and cashflow dashboards (Power BI) with automated refresh."
+      ]
+    },
+    {
+      "company": "Engie",
+      "role": "Data Engineer",
+      "department": "B2B & B2C Metering",
+      "dates": "04/2024 – 06/2025",
+      "meta": {
+        "Industry": "Energy",
+        "Tech": [
+          "Python",
+          "PySpark",
+          "Databricks",
+          "Terraform",
+          "AWS",
+          "SQL"
+        ],
+        "Languages": "FR/EN"
+      },
+      "context": [
+        "Integration of power and gas metering data across Europe, supporting billing processes and predictive modelling.",
+        "The platform handled more than 10 TB of data, requiring strict testability and reproducibility standards."
+      ],
+      "tasks": [
+        "Built and maintained data pipelines (Python, Databricks, SQL) across legacy and greenfield codebases.",
+        "Participated in grooming, refined functional specifications and documented testing expectations.",
+        "Performed code reviews, structured repository standards, refactored cornerstone business logic.",
+        "Implemented a Python testing framework (pytest, Docker, Azure DevOps) used locally and in CI/CD deployment.",
+        "Initiated a Dev’s Corner knowledge-sharing structure, progressively adopted by the team."
+      ]
+    },
+    {
+      "company": "GSK",
+      "role": "Data Engineer & BI Developer",
+      "department": "Vaccines",
+      "dates": "05/2022 – 07/2023",
+      "meta": {
+        "Industry": "Life Sciences",
+        "Tech": [
+          "Talend",
+          "PySpark",
+          "Databricks",
+          "Azure",
+          "Power BI"
+        ],
+        "Languages": "FR/EN"
+      },
+      "context": [
+        "Greenfield data lake initiative to standardize ingestion and analytics across vaccine production workflows."
+      ],
+      "tasks": [
+        "Developed Talend ingestion pipelines for SAP HANA, APIs, SharePoint, and SQL sources targeting Azure Storage.",
+        "Implemented PySpark transformations and Delta Live Tables to structure the lake’s silver layer.",
+        "Migrated existing Spotfire ETL logic to Databricks, improving consistency and maintainability.",
+        "Created generic PySpark validation functions, enabling dataset comparison and testing.",
+        "Built Power BI and Spotfire dashboards for production monitoring and usage analytics."
+      ]
+    },
+    {
+      "company": "Engie",
+      "role": "BI Developer & Data Engineer",
+      "department": "Freight Trading",
+      "dates": "02/2019 – 05/2022",
+      "meta": {
+        "Industry": "Energy / Shipping / Trading",
+        "Tech": [
+          "Power BI",
+          "SQL",
+          "Talend"
+        ],
+        "Languages": "FR/NL/EN"
+      },
+      "context": [
+        "Business and IT support of the freight trading desk handling global biomass shipping.",
+        "Responsibilities included front-to-back user support, BI dashboarding, and data integration."
+      ],
+      "tasks": [
+        "Administered IMOS (shipping lifecycle) and coordinated user support across trading, finance, and back-office.",
+        "Developed Power BI dashboards for operations review, data quality, market exposure, and monthly reporting.",
+        "Designed the finance reconciliation dashboard used for monthly closings and discrepancy analysis.",
+        "Built Talend ingestion workflows integrating market feeds, Excel exports, SAP, REST/SOAP APIs.",
+        "Created reusable Talend joblets with logging, alerting, and environment-driven configuration."
+      ]
+    },
+    {
+      "company": "Telservice",
+      "role": "Operations Assistant",
+      "dates": "06/2018 – 09/2018",
+      "meta": {
+        "Industry": "Construction",
+        "Languages": "FR/NL/EN"
+      },
+      "context": [
+        "Support role within a small business managing administrative and operational workflows."
+      ],
+      "tasks": [
+        "Handled front desk, HR, and day-to-day administrative operations.",
+        "Supported recruitment through candidate sourcing and screening.",
+        "Contributed to GDPR compliance implementation for internal processes."
+      ]
+    },
+    {
+      "company": "Xylos",
+      "role": "SharePoint Consultant & Trainer",
+      "dates": "03/2016 – 02/2017",
+      "meta": {
+        "Industry": "IT Consultancy",
+        "Tech": [
+          "SharePoint",
+          "Office 365"
+        ],
+        "Languages": "FR/NL/EN"
+      },
+      "context": [
+        "Consulting and training activities for clients adopting SharePoint and Office 365 workflows."
+      ],
+      "tasks": [
+        "Assisted senior consultants during pre-sales and functional design workshops.",
+        "Built SharePoint sites and document workflows aligned with clients' business processes.",
+        "Delivered in-class SharePoint trainings in FR, NL and EN to corporate users.",
+        "Produced 100+ educational videos covering SharePoint tips & tricks."
+      ]
+    },
+    {
+      "company": "Liège Airport",
+      "role": "Process Analyst Intern",
+      "dates": "08/2015 – 12/2015",
+      "meta": {
+        "Industry": "Aviation",
+        "Tech": [
+          "BPMN"
+        ],
+        "Languages": "FR/EN"
+      },
+      "context": [
+        "IT department initiated the replacement of the Airport Operations Database (AODB).",
+        "The internship focused on mapping operational and technical processes prior to the redesign."
+      ],
+      "tasks": [
+        "Conducted interviews with operational users to capture business requirements.",
+        "Documented workflows using BPMN and contributed to the target architecture.",
+        "Mapped the technical architecture to support the future system replacement."
+      ]
+    }
+  ],
+  "personal_projects": [
+    {
+      "title": "Camino de Santiago",
+      "dates": "07/2023 – 12/2023",
+      "summary": "Walked 2,400 km solo (Brussels → Santiago); endurance, logistics, and mental focus."
+    },
+    {
+      "title": "Cultural Exchange, Amazon Forest, Brazil",
+      "dates": "09/2018 – 12/2018",
+      "summary": "Lived with an indigenous community, contributed to reforestation and taught English in school."
+    },
+    {
+      "title": "Working Holiday Visa, Australia",
+      "dates": "04/2017 – 04/2018",
+      "summary": "Farm work, math tutoring and WWOOF volunteering; developed adaptability and resilience."
+    }
+  ],
+  "volunteering": [
+    {
+      "title": "Dhammagroup Brussels ASBL",
+      "dates": "07/2025 – Present",
+      "summary": "Coordinating volunteers, improving internal processes, strengthening community culture."
+    },
+    {
+      "title": "Energy Assistance ASBL",
+      "dates": "08/2024 – 06/2025",
+      "summary": "Installed solar panels (BE) and supported project organization for Brazil deployments."
+    },
+    {
+      "title": "BeFace ASBL, Professional Mentorship",
+      "dates": "03/2021 – 09/2022",
+      "summary": "Coached first-generation immigrants with their CV and job-search strategy."
+    },
+    {
+      "title": "Foyer Georges Motte, Homeless Shelter",
+      "dates": "10/2014 – 04/2015",
+      "summary": "Helped in the kitchen, organized resident activities and helped residents with their CV."
+    }
+  ],
+  "interests": "Archery, Algorithmic Trading, Travels"
+}
